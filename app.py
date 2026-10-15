@@ -79,7 +79,7 @@ Un modelo de clasificación de imágenes analizó la foto de un residuo:
 
 Instrucciones:
 1. Responde en español, en un máximo de 120 palabras, con 3 viñetas: cómo preparar el residuo, dónde depositarlo y un error común a evitar.
-2. Si la confianza es menor a {UMBRAL:.0%}, empieza advirtiendo que el resultado es incierto, menciona ambas opciones y pide revisar el material a simple vista antes de depositarlo.
+2. Si la confianza es menor a {UMBRAL:.0%}, empieza advirtiendo que el resultado es incierto, menciona ambas opciones y pide revisar el material a simple vista antes de depositarlo. Si la confianza es igual o mayor a {UMBRAL:.0%}, NO digas que es incierto ni menciones la segunda opción: da la recomendación directamente para la clase más probable.
 3. Habla solo de reciclaje y manejo de residuos. No inventes cifras ni normativas.
 4. Recuerda que los colores de los contenedores pueden variar según la comuna o el punto limpio."""
 
