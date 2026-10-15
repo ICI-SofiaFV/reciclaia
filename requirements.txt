@@ -1,0 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+ultralytics
+streamlit>=1.50
+pillow-heif
+pandas
+requests

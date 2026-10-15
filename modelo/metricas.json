@@ -1,0 +1,39 @@
+{
+  "modelo": "YOLO-cls nano v2 (Ultralytics, aumento de datos fuerte)",
+  "accuracy": 0.9155672823218998,
+  "accuracy_balanceada": 0.911059074847841,
+  "n_test": 379,
+  "recall_por_clase": {
+    "cardboard": 0.8852459016393442,
+    "glass": 0.9078947368421053,
+    "metal": 0.9180327868852459,
+    "paper": 0.9662921348314607,
+    "plastic": 0.8888888888888888,
+    "trash": 0.9
+  },
+  "umbral_confianza": 0.6,
+  "cobertura_test": 0.9577836411609498,
+  "fotos_propias": {
+    "n": 60,
+    "accuracy": 0.35,
+    "accuracy_balanceada": 0.33055555555555555
+  },
+  "comparacion": {
+    "CLIP (sin entrenar)": {
+      "accuracy": 0.6015831134564644,
+      "accuracy_balanceada": 0.6443339627593779
+    },
+    "EfficientNet-B0 (timm)": {
+      "accuracy": 0.8496042216358839,
+      "accuracy_balanceada": 0.847256615346721
+    },
+    "YOLO-cls nano (Ultralytics)": {
+      "accuracy": 0.8812664907651715,
+      "accuracy_balanceada": 0.8653406395945247
+    },
+    "YOLO-cls nano v2 (aumento fuerte)": {
+      "accuracy": 0.9155672823218998,
+      "accuracy_balanceada": 0.911059074847841
+    }
+  }
+}

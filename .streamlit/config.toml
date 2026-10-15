@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#2e7d32"              # verde reciclaje: botones y elementos destacados
+backgroundColor = "#f6faf5"           # fondo verde muy claro
+secondaryBackgroundColor = "#e3efe1"  # barra lateral y cajas
+textColor = "#1b2a1f"                 # texto casi negro, fácil de leer
+font = "sans serif"
