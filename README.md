@@ -1,6 +1,6 @@
 # ♻️ ReciclaIA · Clasificador de residuos con IA
 
-**App publicada:** [PEGAR AQUÍ EL LINK DE STREAMLIT]
+**App publicada:** [https://reciclaia-udd.streamlit.app](https://reciclaia-udd.streamlit.app)
 
 App web que, a partir de la foto de un residuo, identifica su material (cartón, vidrio, metal, papel, plástico o basura no reciclable), muestra la confianza del modelo y entrega una recomendación de reciclaje generada con **Google Gemini**.
 
