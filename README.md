@@ -65,7 +65,7 @@ Además, el modelo siempre elige uno de los 6 materiales, aunque la foto no sea 
 ├── packages.txt                ← librerías del sistema para Streamlit Cloud (OpenCV)
 ├── notebooks/entrenamiento.ipynb ← datos, comparación de modelos y métricas
 ├── modelo/                     ← modelo_yolo.pt · clases.json · metricas.json
-├── ejemplos/                   ← 5 imágenes de prueba
+├── ejemplos/                   ← imágenes de prueba (2-3 por clase, para mostrar variedad dentro de cada clase)
 └── .streamlit/config.toml      ← tema visual
 ```
 
