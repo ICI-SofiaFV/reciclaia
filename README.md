@@ -30,6 +30,7 @@ Separar mal los residuos contamina lotes completos de material reciclable. En el
 **Fotos propias (prueba externa):** 60 fotos de residuos chilenos tomadas con iPhone, usadas solo para evaluar, no para entrenar. [Ver carpeta en Google Drive](https://drive.google.com/drive/folders/1zD7NmAYxCInv2HMbGeIRnUt8rQcECzDp?usp=drive_link)
 
 **Limitaciones:** desbalance (`trash` tiene solo 20 imágenes de prueba), condiciones controladas (fondo blanco), una sola fuente (2016) y posibles fotos casi duplicadas.
+Además, el modelo siempre elige uno de los 6 materiales, aunque la foto no sea un residuo.
 
 > El dataset **no se sube** a este repositorio; se descarga desde Hugging Face en el notebook. Las imágenes de `ejemplos/` son del conjunto de prueba de TrashNet (licencia MIT).
 

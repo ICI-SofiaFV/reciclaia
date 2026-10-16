@@ -107,6 +107,8 @@ with st.sidebar:
     st.header("⚠️ Aviso")
     st.info("Prototipo **educativo**. Ante la duda, revisa el residuo a simple vista o sigue la "
             "señalética de tu punto limpio.")
+    st.caption("ReciclaIA solo reconoce **6 materiales**: si subes otro objeto (ropa, comida, mascotas), "
+               "igual elegirá uno de ellos.")
     st.caption("Certamen I · IA Generativa para la Gestión Industrial · UDD\n\n"
                "Felipe Alonso · Sofía Fariña · Vicente Lagunas")
 
