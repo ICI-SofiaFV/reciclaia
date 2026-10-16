@@ -49,6 +49,7 @@ Comparamos tres enfoques con las **mismas 379 imágenes de prueba** y las mismas
 - **Umbral de confianza: 60 %.** Bajo ese valor, la app pide revisión humana. En prueba responde sola en el 95,8 % de los casos, con 93,4 % de acierto.
 
 **Limitación principal:** con fotos reales (fondos y luces distintas), la accuracy balanceada baja a 33,1 %. Por eso la app guía al usuario a fotografiar el residuo completo sobre un fondo liso y claro.
+Además, el modelo siempre elige uno de los 6 materiales, aunque la foto no sea un residuo.
 
 ## 📱 La app
 - Carga de imagen: subir foto, cámara o ejemplos.

@@ -130,7 +130,8 @@ with tab_clasificar:
             foto = st.camera_input("Toma una foto del residuo")
             datos = foto.getvalue() if foto else None
         else:
-            ejemplos = sorted(os.listdir(CARPETA_EJEMPLOS))
+            ejemplos = sorted(a for a in os.listdir(CARPETA_EJEMPLOS)
+                              if a.lower().endswith((".jpg", ".jpeg", ".png")))   # solo imágenes (ignora archivos ocultos)
             elegido = st.selectbox("Imagen de ejemplo", ejemplos)
             with open(f"{CARPETA_EJEMPLOS}/{elegido}", "rb") as f:
                 datos = f.read()
